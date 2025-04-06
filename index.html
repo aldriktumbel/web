@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="portfolio.html">Portofolio</a></li>
+                <li><a href="articles.html">Artikel</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="profile">
+            <img src="IMG_E1356.JPG" alt="Foto Profil" class="profile-pic">
+            <p><h1>Selamat Datang di website saya</h1></p>
+            <p>Perkenalkan nama saya Noel Tumbel, saya mempunyai beberapa nama panggilan yang lumayan unik. 
+                saya memiliki 3 nama panggilan yang lumayan unik dan itu sangat melekat di otak kerabat-kerabat saya.
+                Entah kenapa ada 2 nama panggilan saya melenceng sangat jauh dari nama saya, nama panggilan saya yaitu:
+                pong, toy, dan, 1 nya lagi yang agak masuk akal adalah mbel, yaa seperti itulah perkenalan nama panggilan saya 
+                yang tidak masuk akal. Dalam hal ini saya membuat website ini untuk memenuhi tugas dari mata Kuliah Web Progremming
+                yang di ampuh oleh Dosen/Mner Glen Marammis. Saya akan memperkenalkan diri saya, dan semua tentang saya di web ini.
+            </p>
+
+<div class="social-links">
+    <a href="https://www.instagram.com/ntmbl_" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://wa.me/6289529687793" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.facebook.com/noel.tumbel" target="_blank"><i class="fab fa-facebook"></i></a>
+  </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/username" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="https://wa.me/6281234567890" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+          <a href="https://www.facebook.com/username" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+        </div>
+      </footer>
+</body>
+</html>
+
+ <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      animation: fadeIn 1s ease-in;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 15px 0;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #00cfff;
+      color: black;
+      transform: scale(1.1);
+    }
+
+    main {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #00cfff;
+      margin-bottom: 25px;
+      box-shadow: 0 0 20px rgba(0,255,255,0.4);
+      animation: fadeInUp 1.2s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2.8em;
+      animation: slideDown 0.8s ease-in-out;
+    }
+
+    p {
+      max-width: 800px;
+      margin: 20px auto;
+      font-size: 1.2em;
+      line-height: 1.6em;
+      animation: fadeInUp 1.5s ease-in-out;
+    }
+
+    .social-links {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.5em;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: transform 0.3s ease, color 0.3s;
+    }
+
+    .social-links a:hover {
+      color: #00cfff;
+      transform: scale(1.2);
+    }
+
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 30px;
+      color: white;
+    }
+
+    .footer-social {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 10px;
+    }
+
+    .footer-social a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.5em;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: transform 0.3s ease, color 0.3s;
+    }
+
+    .footer-social a:hover {
+      color: #00cfff;
+      transform: scale(1.2);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media screen and (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+      }
+      h1 {
+        font-size: 2em;
+      }
+    }
+  </style>

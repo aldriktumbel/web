@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="portfolio.html">Portofolio</a></li>
+                <li><a href="articles.html">Artikel</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+</div>
+    
+<h1>Portofolio Saya</h1>
+<section id="articles">
+    <div class="article-card">
+        <img src="web3_gambar.png" alt="PEMESANAN OBAT">
+        <h3>APK PEMESANAN OBAT</h3>
+        <p><strong>Tahun:</strong> 2023</p>
+        <p>Adapun perancangan sistem yang 
+            digunakan penulis menggunakan metode waterfall sedangkan alat pengembangan aplikasi 
+            database menggunakan bahasa pemograman Java Netbeans IDE 8.02 XAMPP MySQL sebagai 
+            basis data/database server dan pembuatan laporan menggunakan iReport 5.5.0. Dari hasil 
+            pengembangan sistem dan hasil penelitian ini berupa sistem informasi penjualan dan pembelian 
+            obat yang terkomputerisasi yang dapat mempermudah di dalam pengolahan data obat, transaksi 
+            penjualan dan transaksi pembelian bisa lebih cepat juga mengurangi kesalahan dalam proses 
+            pencatatan data. </p>
+    </div>
+    <div class="article-card" style="background-color: #1b1b3a;">
+        <img src="web4_gambar.png" alt="CISCO PAKET TRACKER">
+        <h3>MERANCANG DAN MENGUJI JARINGAN</h3>
+        <p><strong>Tahun:</strong> 2024</p>
+        <p>Packet Tracer is a free network simulator tool for certification exam preparation, particularly for CCNA students. It is available directly through the Cisco Networking Academy. To download and install the Packet Tracer software, you need to sign up for the Introduction to Packet Tracer course, which teaches you the basics of using the tool. There are also other courses available, such as Exploring Networking with Cisco Packet Tracer and Exploring IoT with Cisco Packet Tracer</p>
+    </div>
+    <div class="article-card">
+        <img src="iot_project_image.png" alt="IoT Sistem Pengendali Air Tower">
+        <h2>IoT: Sistem Pengendali Air Tower Rumah Tangga Berbasis Android</h2>
+        <p><strong>Tahun:</strong> Bebas</p>
+        <p>
+            Penelitian ini bertujuan mengimplementasikan sebuah sistem untuk mengontrol dan memonitor air pada tangki air dan bak air menggunakan mikrokontroler NodeMCU. NodeMCU diprogram menggunakan bahasa C melalui software Arduino IDE dan dikontrol melalui perangkat Android. Sistem terdiri dari catu daya, sistem kontrol, rangkaian mekanika dan program, serta bertujuan sebagai pengolah data dengan mikrokontroler sebagai pusat kendali.
+        </p>
+    </div>
+</div>
+
+    <footer>
+        <div class="footer-social">
+            <a href="https://www.instagram.com/username" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/6281234567890" target="_blank"><i class="fab fa-whatsapp"></i> </a>
+            <a href="https://www.facebook.com/username" target="_blank"><i class="fab fa-facebook"></i> </a>
+          </div>
+    </footer>
+</body>
+</html>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #0b0b28;
+        color: white;
+        animation: fadeIn 1s ease-in;
+    }
+
+    header {
+        background-color: #111;
+        padding: 15px 0;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px 15px;
+        border-radius: 5px;
+        transition: color 0.3s, transform 0.3s;
+    }
+
+    nav a:hover {
+        color: #00cfff;
+        transform: scale(1.1);
+    }
+
+    main {
+        padding: 50px 20px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 30px;
+        animation: slideDown 1s ease-in-out;
+    }
+
+    #articles {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .article-card {
+        background-color: #1b1b3a;
+        color: #00cfff;
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+        transition: transform 0.3s, box-shadow 0.3s;
+        animation: fadeInUp 1s ease forwards;
+    }
+
+    .article-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 25px rgba(0, 255, 255, 0.3);
+    }
+
+    .article-card img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        transition: transform 0.3s ease;
+    }
+
+    .article-card img:hover {
+        transform: scale(1.05);
+    }
+
+    .article-card h2, .article-card h3 {
+        margin: 10px 0 5px;
+    }
+
+    .article-card p {
+        font-size: 0.95em;
+        line-height: 1.5em;
+    }
+
+    .footer-social {
+        font-size: 3rem;
+        margin: 40px auto 20px;
+        text-align: center;
+    }
+
+    .footer-social a {
+        margin: 0 20px;
+        color: #ccc;
+        transition: color 0.3s, transform 0.3s;
+    }
+
+    .footer-social a:hover {
+        color: #00cfff;
+        transform: scale(1.2);
+    }
+
+    footer {
+        background-color: #111;
+        color: #ccc;
+        padding: 60px 0 30px;
+        width: 100%;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    footer::before {
+        content: "";
+        display: block;
+        width: 100px;
+        height: 5px;
+        background: linear-gradient(90deg, #00cfff, #0055ff);
+        border-radius: 10px;
+        margin: 0 auto 30px;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(30px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideDown {
+        from { opacity: 0; transform: translateY(-20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media screen and (max-width: 600px) {
+        nav ul {
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+    }
+</style>
